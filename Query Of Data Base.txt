@@ -1,0 +1,72 @@
+Create table log_reg(Name varchar(25),User_name varchar(30),
+Password varchar(30),Confirm_Pass varchar(30),Address varchar(50),
+City varchar(20),Contact_no number(10));
+
+
+
+
+
+
+
+Create table javaQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+Create table CPlusQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+Create table HTMLQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+Create table CQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+Create table VBQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+insert into CQues(sr_no,ques,a,b,c,d,ans)values('1','Who is Devoloper of Cplus Language ?',
+'Bjarne Stroustrup','Dennis Richie','George Clarke','None of above
+','Bjarne Stroustrup');
+
+insert into CQues(Sr_no,ques,A,B,C,D,Ans)values('2',
+'In which header file is the NULL macro defined?',
+'stdio.h','stddef.h','stdio.h and stddef.h','math.h','stdio.h and stddef.h');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3. 	In which header file is the NULL macro defined?
+	A.
+stdio.h	B.
+stddef.h
+C.
+stdio.h and stddef.h	D.
+math.h
+
+Answer: Option C
