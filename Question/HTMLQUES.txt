@@ -1,0 +1,32 @@
+Create table HTMLQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+
+
+
+
+insert into HTMLQUES(sr_no,ques,a,b,c,d,ans)values('1','What does HTML stand for?',
+'Hyperlinks and Text Markup Language','Home Tool Markup Language',
+'Hyper Text Markup Language','None of above','Hyper Text Markup Language');
+
+insert into HTMLQUES(Sr_no,ques,A,B,C,D,Ans)values('2',
+'What is the correct HTML tag for inserting a line break?',
+'<br />','<break />','<lb />','<hr />','<br />');
+
+
+insert into HTMLQUES(Sr_no,ques,A,B,C,D,Ans)values('3',
+'How do I add scrolling text to my page?',
+'<scroll>','<marquee>','<ciruler>','<a>','<marquee>');
+
+
+insert into HTMLQUES(Sr_no,ques,A,B,C,D,Ans)values('4',
+'What is extension of html file  ?',
+'html','xml','xhtml','rhtml','html');
+
+
+insert into HTMLQUES(Sr_no,ques,A,B,C,D,Ans)values('5',
+'How can you make a list that lists the items with numbers?',
+'<ul>','<list>','<ol>','<dl>','<ol>');
+
+
+

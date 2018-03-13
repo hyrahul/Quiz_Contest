@@ -1,0 +1,29 @@
+Create table javaQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+
+
+insert into JAVAQUES(sr_no,ques,a,b,c,d,ans)values('1','who is the Developer of Java Language ?',
+'Bjarne Stroustrap','Denis Richie',
+'James Gosling','Tim Berners Lee','James Gosling');
+
+insert into JAVAQUES(Sr_no,ques,A,B,C,D,Ans)values('2',
+'Which will legally declare, construct, and initialize an array?',
+'int [] myList = {"1", "2", "3"};','int [] myList = (5, 8, 2);',
+'int myList [] [] = {4,9,7,0};','int myList [] = {4, 3, 7};','int myList [] = {4, 3, 7};');
+
+
+insert into JaVAQUES(Sr_no,ques,A,B,C,D,Ans)values('3',
+'Which is a reserved word in the Java programming language?',
+'method','native','subclasses','reference','native');
+
+
+insert into JAVAQUES(Sr_no,ques,A,B,C,D,Ans)values('4',
+'Which is a valid keyword in java?',
+'interface','string','Float','unsigned','interface');
+
+
+insert into JAVAQUES(Sr_no,ques,A,B,C,D,Ans)values('5',
+'What is the name of the method used to start a thread execution?',
+'init();','start();','run();','resume();','start();');
+

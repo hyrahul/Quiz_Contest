@@ -1,0 +1,30 @@
+Create table VBQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+
+
+insert into VBQUES(sr_no,ques,a,b,c,d,ans)values('1','What does IDE stand for?',
+'Integrated Development Environment','Integrated Design Environment',
+'Interior Development Environment','Interior Design Environment','Integrated Development Environment');
+
+insert into VBQUES(Sr_no,ques,A,B,C,D,Ans)values('2',
+'Which are the standard prefixes for the text box and label controls respectively?',
+'tex and lbl','tex and lab',
+'txb and lbl','txb and lab','txb and lbl');
+
+
+insert into VBQUES(Sr_no,ques,A,B,C,D,Ans)values('3',
+'Which are the standard prefixes for the Button and Combo box controls respectively?',
+'btn and chb','btn and cbo','bto and chb','bto and cbo','btn and cbo');
+
+
+insert into VBQUES(Sr_no,ques,A,B,C,D,Ans)values('4',
+'Which property determines whether a control is displayed to the user?',
+'Hide','Show','Visible','Enabled','Visible');
+
+
+insert into VBQUES(Sr_no,ques,A,B,C,D,Ans)values('5',
+'Which function displays a pop-up window??',
+'MsgBox','InputBox','TextBox','Both a and b','Both a and b');
+
+

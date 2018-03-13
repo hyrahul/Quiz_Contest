@@ -1,0 +1,32 @@
+Create table CPlusQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+
+
+
+insert into CPLUSQUES(sr_no,ques,a,b,c,d,ans)values('1','who is the Developer of C++ Language ?',
+'Bjarne Stroustrup','Denis Richie',
+'James Gosling','Tim Berners Lee','Bjarne Stroustrup');
+
+insert into CPLUSQUES(Sr_no,ques,A,B,C,D,Ans)values('2',
+'Which of the following type of class allows only one object of it to be created?',
+'Virtual class','Abstract class',
+'Singleton class','Friend class','Singleton class');
+
+
+insert into CPLUSQUES(Sr_no,ques,A,B,C,D,Ans)values('3',
+'Which of the following is not a type of constructor?',
+'Copy constructor','Friend constructor','Default constructor','Parameterized constructor','Friend constructor');
+
+
+insert into CPLUSQUES(Sr_no,ques,A,B,C,D,Ans)values('4',
+'Which of the following is not the member of class?',
+'Static function','Friend function','Const function','Virtual function','Friend function');
+
+
+insert into CPLUSQUES(Sr_no,ques,A,B,C,D,Ans)values('5',
+'Which of the following cannot be friend?',
+'Function','Class','Object','Operator function','Object');
+
+
+

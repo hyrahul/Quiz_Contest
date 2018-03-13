@@ -1,0 +1,36 @@
+Create table CQues(sr_no number(2)primary key,ques varchar(100) unique,
+a varchar(50),b varchar(50),c varchar(50),d varchar(50),ans varchar(50));
+
+
+
+
+
+
+insert into CQues(sr_no,ques,a,b,c,d,ans)values('1','Who is Devoloper of C Language ?',
+'Bjarne Stroustrup','Dennis Richie','George Clarke','None of above
+','Dennis Richie');
+
+insert into CQues(Sr_no,ques,A,B,C,D,Ans)values('2',
+'In which header file is the NULL macro defined?',
+'stdio.h','stddef.h','stdio.h and stddef.h','math.h','stdio.h and stddef.h');
+
+
+insert into CQues(Sr_no,ques,A,B,C,D,Ans)values('3',
+'The operator used to get value at address stored in a pointer variable is ?',
+'*','&','&&','||','*');
+
+
+insert into CQues(Sr_no,ques,A,B,C,D,Ans)values('4',
+'Which of the following special symbol allowed in a variable name ?',
+'* (asterisk)','| (pipeline)','- (hyphen)','_ (underscore)','_ (underscore)');
+
+
+insert into CQues(Sr_no,ques,A,B,C,D,Ans)values('5',
+'When we mention the prototype of a function ?',
+'Defining','Declaring','Prototyping','Calling','Declaring');
+
+ 	
+
+
+
+
